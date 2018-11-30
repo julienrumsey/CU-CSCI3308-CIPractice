@@ -1,5 +1,0 @@
-#MY NAME: Julien Rumsey - Zach Tanverakul
-#Build fails at 'make dep' if sudo apt-get install pkg-config is not added
-language: c
-compiler: gcc
-script: make dep && make && make test
