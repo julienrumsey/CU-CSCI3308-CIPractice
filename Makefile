@@ -1,3 +1,4 @@
+# MY NAME: Julien Rumsey - Zach Tanverakul
 # Andy Sayler
 # CI Practice
 # Summer 2014
@@ -23,6 +24,7 @@ geometry.o: geometry.c geometry.h
 	$(CC) $(CFLAGS) $< -o $@
 
 dep:
+	sudo apt-get update
 	sudo apt-get install check
 
 clean:
@@ -32,4 +34,3 @@ clean:
 
 test: geometry_test
 	./geometry_test
-	
